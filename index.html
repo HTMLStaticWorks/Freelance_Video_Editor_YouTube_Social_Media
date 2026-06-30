@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Professional freelance video editor specializing in YouTube, TikTok, Reels, brand commercials, motion graphics and social media content. Elevate your brand with cinematic video editing." />
+  <meta name="keywords" content="video editor, YouTube editing, social media videos, TikTok editing, reels, motion graphics, color grading, freelance video editor" />
+  <meta property="og:title" content="CineEdit Pro – Professional Video Editing" />
+  <meta property="og:description" content="Professional freelance video editing that grows your brand and engages your audience." />
+  <title>CineEdit Pro – Professional Video Editing for YouTube & Social Media</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css?v=2" />
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-container">
+    <a href="#home" class="nav-logo" id="nav-logo-link" aria-label="CineEdit Pro Home">
+      <div class="logo-icon"><i class="fas fa-film"></i></div>
+      <span class="logo-text">CineEdit<span class="logo-accent">Pro</span></span>
+    </a>
+
+    <ul class="nav-menu" id="nav-menu" role="menubar">
+      <li role="none"><a href="#home" class="nav-link active" role="menuitem">Home</a></li>
+      <li role="none"><a href="#services" class="nav-link" role="menuitem">Services</a></li>
+      <li role="none"><a href="#portfolio" class="nav-link" role="menuitem">Portfolio</a></li>
+      <li role="none"><a href="#pricing" class="nav-link" role="menuitem">Pricing</a></li>
+      <li role="none"><a href="#process" class="nav-link" role="menuitem">Process</a></li>
+      <li role="none"><a href="#testimonials" class="nav-link" role="menuitem">Testimonials</a></li>
+      <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+    </ul>
+
+    <div class="nav-controls">
+      <button class="theme-btn" id="theme-btn" aria-label="Toggle light/dark theme" title="Toggle Theme">
+        <i class="fas fa-moon" id="theme-icon"></i>
+      </button>
+      <button class="rtl-btn" id="rtl-btn" aria-label="Toggle RTL/LTR text direction" title="Toggle RTL">
+        <span id="rtl-label">RTL</span>
+      </button>
+      <a href="#contact" class="btn-cta nav-cta" id="nav-cta">Get Free Quote</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu Overlay -->
+<div class="mobile-overlay" id="mobile-overlay"></div>
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+  <button class="mobile-close" id="mobile-close" aria-label="Close menu"><i class="fas fa-times"></i></button>
+  <div class="mobile-logo">
+    <i class="fas fa-film"></i> CineEdit<span>Pro</span>
+  </div>
+  <ul class="mobile-nav-list">
+    <li><a href="#home" class="mobile-nav-link">Home</a></li>
+    <li><a href="#services" class="mobile-nav-link">Services</a></li>
+    <li><a href="#portfolio" class="mobile-nav-link">Portfolio</a></li>
+    <li><a href="#pricing" class="mobile-nav-link">Pricing</a></li>
+    <li><a href="#process" class="mobile-nav-link">Process</a></li>
+    <li><a href="#testimonials" class="mobile-nav-link">Testimonials</a></li>
+    <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+  </ul>
+  <a href="#contact" class="btn-primary mobile-cta">Get Free Quote</a>
+</div>
+
+<!-- ========== HERO SECTION ========== -->
+<section class="hero" id="home" aria-label="Hero section">
+  <div class="hero-video-bg">
+    <img src="hero_bg.png" alt="Professional video editing workspace" class="hero-bg-img" />
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" id="hero-particles"></div>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-badge reveal-up" data-delay="0">
+      <i class="fas fa-star"></i> #1 Rated Video Editor
+    </div>
+    <h1 class="hero-headline reveal-up" data-delay="100">
+      Professional Video Editing<br />
+      <span class="gradient-text">That Grows Your Brand</span>
+    </h1>
+    <p class="hero-description reveal-up" data-delay="200">
+      Transform raw footage into compelling stories. Expert editing for YouTube, TikTok, Instagram Reels, and brand commercials that captivate audiences and drive real results.
+    </p>
+    <div class="hero-ctas reveal-up" data-delay="300">
+      <a href="#contact" class="btn-primary" id="hero-cta-quote">
+        <i class="fas fa-comment-dots"></i> Get Free Quote
+      </a>
+      <a href="#portfolio" class="btn-outline" id="hero-cta-portfolio">
+        <i class="fas fa-play-circle"></i> View Portfolio
+      </a>
+    </div>
+    <div class="hero-stats reveal-up" data-delay="400">
+      <div class="stat">
+        <span class="stat-num" data-count="250">0</span><span class="stat-suffix">+</span>
+        <span class="stat-label">Projects Done</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num" data-count="98">0</span><span class="stat-suffix">%</span>
+        <span class="stat-label">Client Satisfaction</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num" data-count="5">0</span><span class="stat-suffix">+</span>
+        <span class="stat-label">Years Experience</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num" data-count="80">0</span><span class="stat-suffix">+</span>
+        <span class="stat-label">Happy Clients</span>
+      </div>
+    </div>
+  </div>
+
+  <a href="#services" class="scroll-down-btn" aria-label="Scroll to services">
+    <span class="scroll-text">Scroll Down</span>
+    <span class="scroll-arrow"><i class="fas fa-chevron-down"></i></span>
+  </a>
+</section>
+
+<!-- ========== SERVICES SECTION ========== -->
+<section class="section services-section" id="services" aria-label="Services">
+  <div class="container">
+    <div class="section-header reveal-up">
+      <span class="section-tag">What I Offer</span>
+      <h2 class="section-title">Premium Video Editing <span class="gradient-text">Services</span></h2>
+      <p class="section-subtitle">From YouTube epics to 15-second reels — I craft every frame with precision and passion.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card reveal-up" data-delay="0">
+        <div class="service-icon-wrap">
+          <div class="service-icon"><i class="fab fa-youtube"></i></div>
+          <div class="service-icon-glow"></div>
+        </div>
+        <h3>YouTube Video Editing</h3>
+        <p>Engaging, retention-optimized edits with dynamic cuts, sound design, and storytelling that keeps viewers hooked from start to finish.</p>
+        <div class="service-features">
+          <span><i class="fas fa-check-circle"></i> Custom Intros & Outros</span>
+          <span><i class="fas fa-check-circle"></i> Jump Cuts & B-Roll</span>
+          <span><i class="fas fa-check-circle"></i> Sound Design</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal-up" data-delay="100">
+        <div class="service-icon-wrap">
+          <div class="service-icon shorts-icon"><i class="fas fa-mobile-alt"></i></div>
+          <div class="service-icon-glow"></div>
+        </div>
+        <h3>Shorts & Reels Editing</h3>
+        <p>Viral-ready vertical content for YouTube Shorts and Instagram Reels. Fast-paced, trend-driven edits built for maximum reach.</p>
+        <div class="service-features">
+          <span><i class="fas fa-check-circle"></i> Vertical Format</span>
+          <span><i class="fas fa-check-circle"></i> Trending Audio Sync</span>
+          <span><i class="fas fa-check-circle"></i> Hook Optimization</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal-up" data-delay="200">
+        <div class="service-icon-wrap">
+          <div class="service-icon tiktok-icon"><i class="fab fa-tiktok"></i></div>
+          <div class="service-icon-glow"></div>
+        </div>
+        <h3>TikTok Editing</h3>
+        <p>Platform-native TikTok edits with trending effects, seamless transitions, text overlays and music synced to the beat.</p>
+        <div class="service-features">
+          <span><i class="fas fa-check-circle"></i> Trend-Based Edits</span>
+          <span><i class="fas fa-check-circle"></i> Text Animations</span>
+          <span><i class="fas fa-check-circle"></i> Transition Magic</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal-up" data-delay="300">
+        <div class="service-icon-wrap">
+          <div class="service-icon ads-icon"><i class="fas fa-ad"></i></div>
+          <div class="service-icon-glow"></div>
+        </div>
+        <h3>Social Media Ads</h3>
+        <p>High-converting ad videos for Facebook, Instagram, and YouTube. Crafted to stop the scroll and drive action.</p>
+        <div class="service-features">
+          <span><i class="fas fa-check-circle"></i> Multiple Ratios</span>
+          <span><i class="fas fa-check-circle"></i> CTA Integration</span>
+          <span><i class="fas fa-check-circle"></i> A/B Variants</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal-up" data-delay="400">
+        <div class="service-icon-wrap">
+          <div class="service-icon motion-icon"><i class="fas fa-magic"></i></div>
+          <div class="service-icon-glow"></div>
+        </div>
+        <h3>Motion Graphics</h3>
+        <p>Custom animated graphics, lower thirds, titles, and visual effects that give your content a professional broadcast quality.</p>
+        <div class="service-features">
+          <span><i class="fas fa-check-circle"></i> Logo Animations</span>
+          <span><i class="fas fa-check-circle"></i> Lower Thirds</span>
+          <span><i class="fas fa-check-circle"></i> Title Cards</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal-up" data-delay="500">
+        <div class="service-icon-wrap">
+          <div class="service-icon color-icon"><i class="fas fa-palette"></i></div>
+          <div class="service-icon-glow"></div>
+        </div>
+        <h3>Color Grading</h3>
+        <p>Hollywood-level color correction and cinematic LUT grading to establish your unique visual brand and mood.</p>
+        <div class="service-features">
+          <span><i class="fas fa-check-circle"></i> Custom LUTs</span>
+          <span><i class="fas fa-check-circle"></i> Skin Tone Correction</span>
+          <span><i class="fas fa-check-circle"></i> Cinematic Grade</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal-up" data-delay="600">
+        <div class="service-icon-wrap">
+          <div class="service-icon audio-icon"><i class="fas fa-headphones"></i></div>
+          <div class="service-icon-glow"></div>
+        </div>
+        <h3>Audio Enhancement</h3>
+        <p>Professional audio cleanup, noise reduction, mixing, and mastering to ensure crystal-clear, broadcast-quality sound.</p>
+        <div class="service-features">
+          <span><i class="fas fa-check-circle"></i> Noise Removal</span>
+          <span><i class="fas fa-check-circle"></i> Audio Mixing</span>
+          <span><i class="fas fa-check-circle"></i> Music Licensing</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal-up" data-delay="700">
+        <div class="service-icon-wrap">
+          <div class="service-icon thumb-icon"><i class="fas fa-image"></i></div>
+          <div class="service-icon-glow"></div>
+        </div>
+        <h3>Thumbnail Design</h3>
+        <p>Click-worthy custom YouTube thumbnails and social media graphics designed to maximize CTR and channel growth.</p>
+        <div class="service-features">
+          <span><i class="fas fa-check-circle"></i> High CTR Design</span>
+          <span><i class="fas fa-check-circle"></i> Brand Consistent</span>
+          <span><i class="fas fa-check-circle"></i> A/B Testing</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PORTFOLIO SECTION ========== -->
+<section class="section portfolio-section" id="portfolio" aria-label="Portfolio">
+  <div class="portfolio-bg-img">
+    <img src="portfolio_bg.png" alt="" aria-hidden="true" />
+    <div class="portfolio-overlay"></div>
+  </div>
+  <div class="container">
+    <div class="section-header reveal-up">
+      <span class="section-tag">My Work</span>
+      <h2 class="section-title">Portfolio & <span class="gradient-text">Showreel</span></h2>
+      <p class="section-subtitle">A curated selection of projects that showcase the depth and versatility of my editing style.</p>
+    </div>
+
+    <!-- Featured Showreel -->
+    <div class="showreel-wrap reveal-up">
+      <div class="showreel-card">
+        <div class="showreel-thumb">
+          <img src="port1.png" alt="Featured showreel thumbnail" />
+          <div class="showreel-overlay">
+            <button class="play-btn-large" id="play-showreel" aria-label="Play showreel video">
+              <i class="fas fa-play"></i>
+            </button>
+            <span class="showreel-duration">3:24</span>
+          </div>
+          <div class="showreel-badge">⭐ Featured Showreel</div>
+        </div>
+        <div class="showreel-info">
+          <h3>2024 Video Editing Showreel</h3>
+          <p>A comprehensive showcase of YouTube edits, brand commercials, motion graphics, and color grading work across 50+ projects.</p>
+          <div class="showreel-tags">
+            <span class="tag">YouTube</span>
+            <span class="tag">Commercials</span>
+            <span class="tag">Motion Graphics</span>
+            <span class="tag">Color Grading</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Filter Tabs -->
+    <div class="portfolio-filters reveal-up">
+      <button class="filter-btn active" data-filter="all" id="filter-all">All Projects</button>
+      <button class="filter-btn" data-filter="youtube" id="filter-youtube">YouTube</button>
+      <button class="filter-btn" data-filter="commercial" id="filter-commercial">Commercials</button>
+      <button class="filter-btn" data-filter="reels" id="filter-reels">Reels & Shorts</button>
+      <button class="filter-btn" data-filter="motion" id="filter-motion">Motion Graphics</button>
+    </div>
+
+    <!-- Portfolio Grid -->
+    <div class="portfolio-grid">
+      <div class="portfolio-item reveal-up" data-category="youtube" data-delay="0">
+        <div class="portfolio-thumb">
+          <img src="port1.png" alt="YouTube Channel Edit – Tech Review Series" />
+          <div class="portfolio-hover">
+            <button class="play-btn" aria-label="Preview this project"><i class="fas fa-play"></i></button>
+            <div class="portfolio-info">
+              <h4>Tech Review Series</h4>
+              <span>YouTube Editing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item reveal-up" data-category="commercial" data-delay="100">
+        <div class="portfolio-thumb">
+          <img src="port2.png" alt="Brand Commercial – Luxury Product" />
+          <div class="portfolio-hover">
+            <button class="play-btn" aria-label="Preview this project"><i class="fas fa-play"></i></button>
+            <div class="portfolio-info">
+              <h4>Luxury Product Ad</h4>
+              <span>Brand Commercial</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item reveal-up" data-category="reels" data-delay="200">
+        <div class="portfolio-thumb">
+          <img src="port3.png" alt="Instagram Reels – Lifestyle Creator" />
+          <div class="portfolio-hover">
+            <button class="play-btn" aria-label="Preview this project"><i class="fas fa-play"></i></button>
+            <div class="portfolio-info">
+              <h4>Lifestyle Reel Series</h4>
+              <span>Reels & Shorts</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item reveal-up" data-category="motion" data-delay="300">
+        <div class="portfolio-thumb">
+          <img src="port4.png" alt="Motion Graphics Package" />
+          <div class="portfolio-hover">
+            <button class="play-btn" aria-label="Preview this project"><i class="fas fa-play"></i></button>
+            <div class="portfolio-info">
+              <h4>Motion Graphics Package</h4>
+              <span>Motion Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item reveal-up" data-category="youtube" data-delay="400">
+        <div class="portfolio-thumb">
+          <img src="port2.png" alt="YouTube Vlog Edit" />
+          <div class="portfolio-hover">
+            <button class="play-btn" aria-label="Preview this project"><i class="fas fa-play"></i></button>
+            <div class="portfolio-info">
+              <h4>Travel Vlog Series</h4>
+              <span>YouTube Editing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item reveal-up" data-category="commercial" data-delay="500">
+        <div class="portfolio-thumb">
+          <img src="port4.png" alt="Social Media Ad Campaign" />
+          <div class="portfolio-hover">
+            <button class="play-btn" aria-label="Preview this project"><i class="fas fa-play"></i></button>
+            <div class="portfolio-info">
+              <h4>Ad Campaign Reels</h4>
+              <span>Social Media Ads</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Before & After Comparison -->
+    <div class="before-after-wrap reveal-up">
+      <h3 class="sub-section-title">Before & After: <span class="gradient-text">See the Difference</span></h3>
+      <div class="comparison-container" id="comparison-container">
+        <div class="comparison-before">
+          <img src="port3.png" alt="Before editing – raw ungraded footage" />
+          <span class="comparison-label label-before">BEFORE</span>
+        </div>
+        <div class="comparison-after">
+          <img src="port4.png" alt="After editing – professionally graded footage" />
+          <span class="comparison-label label-after">AFTER</span>
+        </div>
+        <div class="comparison-slider" id="comparison-slider" role="slider" aria-label="Before/after comparison slider" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+          <div class="slider-handle">
+            <i class="fas fa-chevron-left"></i>
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Client Logos -->
+    <div class="client-logos reveal-up">
+      <p class="client-logos-title">Trusted by Creators & Brands</p>
+      <div class="logos-marquee">
+        <div class="logos-track">
+          <div class="logo-item"><i class="fab fa-youtube"></i> <span>YouTube Creator</span></div>
+          <div class="logo-item"><i class="fab fa-instagram"></i> <span>Instagram Brand</span></div>
+          <div class="logo-item"><i class="fab fa-tiktok"></i> <span>TikTok Agency</span></div>
+          <div class="logo-item"><i class="fas fa-tv"></i> <span>Media House</span></div>
+          <div class="logo-item"><i class="fas fa-shopping-bag"></i> <span>E-Commerce Brand</span></div>
+          <div class="logo-item"><i class="fas fa-microphone"></i> <span>Podcast Network</span></div>
+          <div class="logo-item"><i class="fab fa-youtube"></i> <span>YouTube Creator</span></div>
+          <div class="logo-item"><i class="fab fa-instagram"></i> <span>Instagram Brand</span></div>
+          <div class="logo-item"><i class="fab fa-tiktok"></i> <span>TikTok Agency</span></div>
+          <div class="logo-item"><i class="fas fa-tv"></i> <span>Media House</span></div>
+          <div class="logo-item"><i class="fas fa-shopping-bag"></i> <span>E-Commerce Brand</span></div>
+          <div class="logo-item"><i class="fas fa-microphone"></i> <span>Podcast Network</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PRICING SECTION ========== -->
+<section class="section pricing-section" id="pricing" aria-label="Pricing packages">
+  <div class="container">
+    <div class="section-header reveal-up">
+      <span class="section-tag">Investment</span>
+      <h2 class="section-title">Transparent <span class="gradient-text">Pricing</span></h2>
+      <p class="section-subtitle">No hidden fees. No surprises. Pick the package that matches your goals.</p>
+    </div>
+
+    <!-- Pricing Toggle -->
+    <div class="pricing-toggle reveal-up">
+      <span class="toggle-label" id="toggle-monthly-label">Monthly</span>
+      <label class="toggle-switch" for="pricing-toggle-input">
+        <input type="checkbox" id="pricing-toggle-input" aria-label="Toggle between monthly and per-project pricing" />
+        <span class="toggle-slider"></span>
+      </label>
+      <span class="toggle-label" id="toggle-project-label">Per Project</span>
+    </div>
+
+    <div class="pricing-grid">
+      <!-- Starter -->
+      <div class="pricing-card reveal-up" data-delay="0" id="pricing-starter">
+        <div class="pricing-header">
+          <div class="pricing-icon"><i class="fas fa-rocket"></i></div>
+          <h3>Starter</h3>
+          <p>Perfect for new creators just getting started</p>
+        </div>
+        <div class="pricing-price">
+          <span class="price-currency">$</span>
+          <span class="price-amount monthly-price">149</span>
+          <span class="price-amount project-price" style="display:none">79</span>
+          <span class="price-period monthly-period">/month</span>
+          <span class="price-period project-period" style="display:none">/video</span>
+        </div>
+        <ul class="pricing-features">
+          <li><i class="fas fa-check"></i> Up to 4 Videos/Month</li>
+          <li><i class="fas fa-check"></i> Up to 15 min per video</li>
+          <li><i class="fas fa-check"></i> Basic Color Grading</li>
+          <li><i class="fas fa-check"></i> Background Music</li>
+          <li><i class="fas fa-check"></i> 2 Revisions</li>
+          <li><i class="fas fa-check"></i> 5-7 Day Delivery</li>
+          <li class="feature-disabled"><i class="fas fa-times"></i> Motion Graphics</li>
+          <li class="feature-disabled"><i class="fas fa-times"></i> Thumbnail Design</li>
+        </ul>
+        <a href="#contact" class="btn-outline pricing-btn" id="pricing-starter-btn">Get Started</a>
+      </div>
+
+      <!-- Creator (Popular) -->
+      <div class="pricing-card popular reveal-up" data-delay="100" id="pricing-creator">
+        <div class="popular-badge">⭐ Most Popular</div>
+        <div class="pricing-header">
+          <div class="pricing-icon"><i class="fas fa-crown"></i></div>
+          <h3>Creator</h3>
+          <p>For established YouTubers ready to level up</p>
+        </div>
+        <div class="pricing-price">
+          <span class="price-currency">$</span>
+          <span class="price-amount monthly-price">349</span>
+          <span class="price-amount project-price" style="display:none">149</span>
+          <span class="price-period monthly-period">/month</span>
+          <span class="price-period project-period" style="display:none">/video</span>
+        </div>
+        <ul class="pricing-features">
+          <li><i class="fas fa-check"></i> Up to 12 Videos/Month</li>
+          <li><i class="fas fa-check"></i> Up to 30 min per video</li>
+          <li><i class="fas fa-check"></i> Advanced Color Grading</li>
+          <li><i class="fas fa-check"></i> Custom Music & SFX</li>
+          <li><i class="fas fa-check"></i> 3 Revisions</li>
+          <li><i class="fas fa-check"></i> 3-5 Day Delivery</li>
+          <li><i class="fas fa-check"></i> Basic Motion Graphics</li>
+          <li><i class="fas fa-check"></i> 2 Thumbnails/Month</li>
+        </ul>
+        <a href="#contact" class="btn-primary pricing-btn" id="pricing-creator-btn">Start Creating</a>
+      </div>
+
+      <!-- Business -->
+      <div class="pricing-card reveal-up" data-delay="200" id="pricing-business">
+        <div class="pricing-header">
+          <div class="pricing-icon"><i class="fas fa-building"></i></div>
+          <h3>Business</h3>
+          <p>For brands & agencies demanding excellence</p>
+        </div>
+        <div class="pricing-price">
+          <span class="price-currency">$</span>
+          <span class="price-amount monthly-price">699</span>
+          <span class="price-amount project-price" style="display:none">299</span>
+          <span class="price-period monthly-period">/month</span>
+          <span class="price-period project-period" style="display:none">/video</span>
+        </div>
+        <ul class="pricing-features">
+          <li><i class="fas fa-check"></i> Unlimited Videos</li>
+          <li><i class="fas fa-check"></i> Unlimited Length</li>
+          <li><i class="fas fa-check"></i> Cinema-Grade Color</li>
+          <li><i class="fas fa-check"></i> Full Audio Suite</li>
+          <li><i class="fas fa-check"></i> Unlimited Revisions</li>
+          <li><i class="fas fa-check"></i> 24-48 Hr Rush Option</li>
+          <li><i class="fas fa-check"></i> Full Motion Graphics</li>
+          <li><i class="fas fa-check"></i> Unlimited Thumbnails</li>
+        </ul>
+        <a href="#contact" class="btn-outline pricing-btn" id="pricing-business-btn">Go Business</a>
+      </div>
+    </div>
+
+    <!-- What's Included & Policies -->
+    <div class="pricing-info reveal-up">
+      <div class="info-card">
+        <i class="fas fa-box-open"></i>
+        <h4>What's Included</h4>
+        <p>Every package includes source file delivery, royalty-free music, subtitles/captions, and a private client dashboard for project management.</p>
+      </div>
+      <div class="info-card">
+        <i class="fas fa-clock"></i>
+        <h4>Delivery Time</h4>
+        <p>Standard delivery in 3–7 business days. Rush delivery (24–48 hours) available on all packages for an additional fee.</p>
+      </div>
+      <div class="info-card">
+        <i class="fas fa-redo"></i>
+        <h4>Revision Policy</h4>
+        <p>Revisions are unlimited in scope of the original brief. Major re-edits beyond the package limit are billed at $25/hour.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PROCESS SECTION ========== -->
+<section class="section process-section" id="process" aria-label="Editing process">
+  <div class="container">
+    <div class="section-header reveal-up">
+      <span class="section-tag">How It Works</span>
+      <h2 class="section-title">My Editing <span class="gradient-text">Process</span></h2>
+      <p class="section-subtitle">A streamlined, transparent workflow designed to make collaboration effortless.</p>
+    </div>
+
+    <div class="process-timeline">
+      <div class="process-step reveal-up" data-delay="0" id="process-step-1">
+        <div class="step-number">01</div>
+        <div class="step-connector"></div>
+        <div class="step-content">
+          <div class="step-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+          <h3>Submit Your Footage</h3>
+          <p>Share your raw footage, assets, and project brief through our secure portal. We accept all major formats (MP4, MOV, MKV, etc.) via Google Drive, Dropbox, or WeTransfer.</p>
+          <div class="step-tip"><i class="fas fa-lightbulb"></i> Tip: Include references & mood boards for best results!</div>
+        </div>
+      </div>
+
+      <div class="process-step reveal-up" data-delay="100" id="process-step-2">
+        <div class="step-number">02</div>
+        <div class="step-connector"></div>
+        <div class="step-content">
+          <div class="step-icon"><i class="fas fa-comments"></i></div>
+          <h3>Project Discussion</h3>
+          <p>We hop on a quick call or chat to align on your vision, style preferences, music choices, and specific requirements before a single cut is made.</p>
+          <div class="step-tip"><i class="fas fa-lightbulb"></i> Tip: Bring reference videos to speed up alignment!</div>
+        </div>
+      </div>
+
+      <div class="process-step reveal-up" data-delay="200" id="process-step-3">
+        <div class="step-number">03</div>
+        <div class="step-connector"></div>
+        <div class="step-content">
+          <div class="step-icon"><i class="fas fa-cut"></i></div>
+          <h3>Video Editing</h3>
+          <p>Your footage goes through professional editing, color grading, sound design, motion graphics, and all the agreed-upon elements to create a polished masterpiece.</p>
+          <div class="step-tip"><i class="fas fa-lightbulb"></i> Tip: You'll get a rough cut preview before final delivery!</div>
+        </div>
+      </div>
+
+      <div class="process-step reveal-up" data-delay="300" id="process-step-4">
+        <div class="step-number">04</div>
+        <div class="step-connector"></div>
+        <div class="step-content">
+          <div class="step-icon"><i class="fas fa-search"></i></div>
+          <h3>Review & Revisions</h3>
+          <p>Watch the preview version in your private client portal, leave timestamped feedback, and we'll refine until it's exactly how you envisioned it.</p>
+          <div class="step-tip"><i class="fas fa-lightbulb"></i> Tip: Frame-level feedback ensures pixel-perfect revisions!</div>
+        </div>
+      </div>
+
+      <div class="process-step reveal-up" data-delay="400" id="process-step-5">
+        <div class="step-number">05</div>
+        <div class="step-content">
+          <div class="step-icon"><i class="fas fa-download"></i></div>
+          <h3>Final Delivery</h3>
+          <p>Receive your final export in 4K/1080p with all required formats (YouTube, Instagram, TikTok). Files delivered via secure download link within 24 hours of approval.</p>
+          <div class="step-tip"><i class="fas fa-lightbulb"></i> Tip: Source project file available upon request!</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== TESTIMONIALS SECTION ========== -->
+<section class="section testimonials-section" id="testimonials" aria-label="Client testimonials">
+  <div class="container">
+    <div class="section-header reveal-up">
+      <span class="section-tag">Client Love</span>
+      <h2 class="section-title">What Creators <span class="gradient-text">Say</span></h2>
+      <p class="section-subtitle">Real results. Real people. Real growth stories from creators who trusted the process.</p>
+    </div>
+
+    <!-- Overall Rating -->
+    <div class="overall-rating reveal-up">
+      <div class="rating-score">5.0</div>
+      <div class="rating-details">
+        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+        <p>Based on 80+ client reviews across platforms</p>
+      </div>
+    </div>
+
+    <!-- Testimonials Slider -->
+    <div class="testimonials-slider reveal-up">
+      <div class="testimonials-track" id="testimonials-track">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card" id="testi-1">
+          <div class="testi-quote"><i class="fas fa-quote-left"></i></div>
+          <p class="testi-text">"Working with CineEdit Pro completely transformed my YouTube channel. My watch time jumped 40% in just two months. The editing quality is simply unmatched — every cut feels intentional and the color grading is cinematic."</p>
+          <div class="testi-footer">
+            <img src="client1.png" alt="Sarah K., YouTube Creator" class="testi-avatar" />
+            <div class="testi-info">
+              <strong>Sarah K.</strong>
+              <span>YouTube Creator – 280K Subscribers</span>
+              <div class="testi-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card" id="testi-2">
+          <div class="testi-quote"><i class="fas fa-quote-left"></i></div>
+          <p class="testi-text">"Our brand's social media presence went from zero to viral. The Reels they produced for us consistently hit 500K+ views. The turnaround time is incredible and communication is always spot-on. Highly recommend!"</p>
+          <div class="testi-footer">
+            <img src="client2.png" alt="Marcus R., Brand Owner" class="testi-avatar" />
+            <div class="testi-info">
+              <strong>Marcus R.</strong>
+              <span>Brand Owner – Fashion & Lifestyle</span>
+              <div class="testi-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card" id="testi-3">
+          <div class="testi-quote"><i class="fas fa-quote-left"></i></div>
+          <p class="testi-text">"I've tried 5 different editors before finding CineEdit Pro. The difference is night and day. They truly understand the YouTube algorithm, audience retention, and what makes content go viral. Best investment I've made."</p>
+          <div class="testi-footer">
+            <img src="client3.png" alt="Aisha M., Business Coach" class="testi-avatar" />
+            <div class="testi-info">
+              <strong>Aisha M.</strong>
+              <span>Business Coach – 1.2M Subscribers</span>
+              <div class="testi-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 4 -->
+        <div class="testimonial-card" id="testi-4">
+          <div class="testi-quote"><i class="fas fa-quote-left"></i></div>
+          <p class="testi-text">"The motion graphics package they delivered for our product launch was absolutely stunning. Our conversion rate from the video ad increased by 65%. Professional, creative, and always on deadline."</p>
+          <div class="testi-footer">
+            <img src="client2.png" alt="David L., Marketing Director" class="testi-avatar" />
+            <div class="testi-info">
+              <strong>David L.</strong>
+              <span>Marketing Director – Tech Startup</span>
+              <div class="testi-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider Controls -->
+      <div class="slider-controls">
+        <button class="slider-btn" id="testi-prev" aria-label="Previous testimonial"><i class="fas fa-chevron-left"></i></button>
+        <div class="slider-dots" id="slider-dots">
+          <button class="dot active" data-index="0" aria-label="Go to testimonial 1"></button>
+          <button class="dot" data-index="1" aria-label="Go to testimonial 2"></button>
+          <button class="dot" data-index="2" aria-label="Go to testimonial 3"></button>
+          <button class="dot" data-index="3" aria-label="Go to testimonial 4"></button>
+        </div>
+        <button class="slider-btn" id="testi-next" aria-label="Next testimonial"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+
+    <!-- Success Metrics -->
+    <div class="success-metrics reveal-up">
+      <div class="metric-card">
+        <i class="fas fa-chart-line"></i>
+        <div class="metric-num" data-count="40">0</div><span>%</span>
+        <p>Average Watch Time Increase</p>
+      </div>
+      <div class="metric-card">
+        <i class="fab fa-youtube"></i>
+        <div class="metric-num" data-count="65">0</div><span>%</span>
+        <p>Average CTR Improvement</p>
+      </div>
+      <div class="metric-card">
+        <i class="fas fa-users"></i>
+        <div class="metric-num" data-count="500">0</div><span>K+</span>
+        <p>Average Reel Views</p>
+      </div>
+      <div class="metric-card">
+        <i class="fas fa-thumbs-up"></i>
+        <div class="metric-num" data-count="98">0</div><span>%</span>
+        <p>Client Satisfaction Rate</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FAQ SECTION ========== -->
+<section class="section faq-section" id="faq" aria-label="Frequently asked questions">
+  <div class="container">
+    <div class="section-header reveal-up">
+      <span class="section-tag">Common Questions</span>
+      <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+      <p class="section-subtitle">Everything you need to know before we start working together.</p>
+    </div>
+
+    <div class="faq-grid">
+      <div class="faq-item reveal-up" data-delay="0">
+        <button class="faq-question" aria-expanded="false" id="faq-q1">
+          <span><i class="fas fa-clock"></i> What's the typical turnaround time?</span>
+          <i class="fas fa-chevron-down faq-arrow"></i>
+        </button>
+        <div class="faq-answer" id="faq-a1" hidden>
+          Standard delivery is 3–7 business days depending on video length and complexity. Rush delivery (24–48 hours) is available for an additional 50% fee. Retainer clients receive priority queue positioning.
+        </div>
+      </div>
+
+      <div class="faq-item reveal-up" data-delay="50">
+        <button class="faq-question" aria-expanded="false" id="faq-q2">
+          <span><i class="fas fa-redo-alt"></i> How many revisions are included?</span>
+          <i class="fas fa-chevron-down faq-arrow"></i>
+        </button>
+        <div class="faq-answer" id="faq-a2" hidden>
+          Starter: 2 revisions, Creator: 3 revisions, Business: Unlimited revisions. All revisions must be within the original project brief. Additional rounds beyond limits are $25/hour.
+        </div>
+      </div>
+
+      <div class="faq-item reveal-up" data-delay="100">
+        <button class="faq-question" aria-expanded="false" id="faq-q3">
+          <span><i class="fas fa-file-video"></i> What file formats do you accept/deliver?</span>
+          <i class="fas fa-chevron-down faq-arrow"></i>
+        </button>
+        <div class="faq-answer" id="faq-a3" hidden>
+          I accept all major video formats: MP4, MOV, MKV, AVI, MXF, BRAW. Deliverables are provided in H.264/H.265 MP4 (1080p or 4K), optimized for YouTube, Instagram, TikTok, and Facebook. Source project files available upon request.
+        </div>
+      </div>
+
+      <div class="faq-item reveal-up" data-delay="150">
+        <button class="faq-question" aria-expanded="false" id="faq-q4">
+          <span><i class="fas fa-credit-card"></i> What payment methods do you accept?</span>
+          <i class="fas fa-chevron-down faq-arrow"></i>
+        </button>
+        <div class="faq-answer" id="faq-a4" hidden>
+          I accept PayPal, Wise, Stripe (Credit/Debit cards), and bank wire transfers. For new clients, 50% upfront is required. Monthly retainer clients are billed on the 1st of each month. All prices are in USD.
+        </div>
+      </div>
+
+      <div class="faq-item reveal-up" data-delay="200">
+        <button class="faq-question" aria-expanded="false" id="faq-q5">
+          <span><i class="fas fa-calendar-alt"></i> Can I get a monthly editing plan?</span>
+          <i class="fas fa-chevron-down faq-arrow"></i>
+        </button>
+        <div class="faq-answer" id="faq-a5" hidden>
+          Yes! Monthly retainer plans are available at a 15–20% discount compared to per-project pricing. Retainer clients get priority turnaround, dedicated support, and a consistent editing style across all content.
+        </div>
+      </div>
+
+      <div class="faq-item reveal-up" data-delay="250">
+        <button class="faq-question" aria-expanded="false" id="faq-q6">
+          <span><i class="fas fa-bolt"></i> Do you offer rush delivery?</span>
+          <i class="fas fa-chevron-down faq-arrow"></i>
+        </button>
+        <div class="faq-answer" id="faq-a6" hidden>
+          Absolutely! Rush delivery (24–48 hours) is available subject to current workload. Rush orders incur a 50% premium on the standard price. Contact me to check availability before placing a rush order.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTACT / CTA SECTION ========== -->
+<section class="section contact-section" id="contact" aria-label="Contact">
+  <div class="contact-bg"></div>
+  <div class="container">
+    <div class="section-header reveal-up">
+      <span class="section-tag">Let's Connect</span>
+      <h2 class="section-title">Let's Create <span class="gradient-text">Amazing Videos</span> Together!</h2>
+      <p class="section-subtitle">Ready to transform your content? Get in touch and let's discuss your project.</p>
+    </div>
+
+    <div class="contact-layout">
+      <!-- Contact Form -->
+      <div class="contact-form-wrap reveal-up" data-delay="0">
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="form-name">Full Name *</label>
+              <input type="text" id="form-name" name="name" placeholder="Your full name" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="form-email">Email Address *</label>
+              <input type="email" id="form-email" name="email" placeholder="your@email.com" required autocomplete="email" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="form-platform">Platform / Type</label>
+              <select id="form-platform" name="platform">
+                <option value="">Select platform...</option>
+                <option value="youtube">YouTube</option>
+                <option value="tiktok">TikTok</option>
+                <option value="instagram">Instagram Reels</option>
+                <option value="commercial">Brand Commercial</option>
+                <option value="ads">Social Media Ads</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="form-budget">Budget Range</label>
+              <select id="form-budget" name="budget">
+                <option value="">Select budget...</option>
+                <option value="starter">$79 – $149 (Starter)</option>
+                <option value="creator">$149 – $349 (Creator)</option>
+                <option value="business">$349 – $699 (Business)</option>
+                <option value="enterprise">$699+ (Enterprise)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="form-message">Project Details *</label>
+            <textarea id="form-message" name="message" rows="5" placeholder="Tell me about your project — content type, goals, style references, deadline..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary form-submit" id="form-submit-btn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <div class="form-success" id="form-success" hidden>
+            <i class="fas fa-check-circle"></i> Message sent! I'll get back to you within 24 hours.
+          </div>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="contact-info-wrap reveal-up" data-delay="200">
+        <div class="contact-info-card">
+          <h3>Get in Touch</h3>
+          <p>Have a project in mind? I'd love to hear about it. Reach out via any channel below:</p>
+
+          <div class="contact-methods">
+            <a href="mailto:hello@cineeditpro.com" class="contact-method" id="contact-email-link">
+              <div class="contact-method-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <strong>Email</strong>
+                <span>hello@cineeditpro.com</span>
+              </div>
+            </a>
+            <a href="https://wa.me/11234567890?text=Hi!%20I%27m%20interested%20in%20your%20video%20editing%20services." class="contact-method whatsapp" id="contact-whatsapp-link" target="_blank" rel="noopener noreferrer">
+              <div class="contact-method-icon"><i class="fab fa-whatsapp"></i></div>
+              <div>
+                <strong>WhatsApp</strong>
+                <span>Chat Now – Quick Response!</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="response-time">
+            <i class="fas fa-clock"></i> Average response time: <strong>under 2 hours</strong>
+          </div>
+
+          <div class="social-links">
+            <p>Follow My Work</p>
+            <div class="social-icons">
+              <a href="#" class="social-link" id="social-youtube" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-link" id="social-instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-link" id="social-tiktok" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+              <a href="#" class="social-link" id="social-twitter" aria-label="Twitter / X"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link" id="social-linkedin" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <i class="fas fa-film"></i> CineEdit<span>Pro</span>
+        </div>
+        <p>Professional video editing that transforms raw footage into compelling stories that grow your brand and engage your audience.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">YouTube Editing</a></li>
+          <li><a href="#services">Shorts & Reels</a></li>
+          <li><a href="#services">TikTok Editing</a></li>
+          <li><a href="#services">Motion Graphics</a></li>
+          <li><a href="#services">Color Grading</a></li>
+          <li><a href="#services">Thumbnail Design</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><i class="fas fa-envelope"></i> hello@cineeditpro.com</p>
+        <p><i class="fab fa-whatsapp"></i> WhatsApp Available</p>
+        <p><i class="fas fa-clock"></i> Mon–Sat, 9AM–9PM</p>
+        <a href="#contact" class="btn-primary footer-cta">Get Free Quote</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 CineEdit Pro. All rights reserved. Crafted with <i class="fas fa-heart"></i> for creators.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating Quote Button -->
+<a href="#contact" class="float-cta" id="float-cta" aria-label="Get a free quote">
+  <i class="fas fa-comment-dots"></i>
+  <span>Get Quote</span>
+</a>
+
+<!-- Video Modal -->
+<div class="video-modal" id="video-modal" role="dialog" aria-modal="true" aria-label="Video player" hidden>
+  <div class="modal-overlay" id="modal-overlay"></div>
+  <div class="modal-content">
+    <button class="modal-close" id="modal-close" aria-label="Close video"><i class="fas fa-times"></i></button>
+    <div class="modal-video-wrap">
+      <div class="modal-placeholder">
+        <i class="fas fa-film"></i>
+        <p>Showreel video would play here.</p>
+        <p class="modal-sub">Connect a YouTube embed URL for live preview.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js?v=2"></script>
+</body>
+</html>
