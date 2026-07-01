@@ -41,7 +41,7 @@
       <button class="rtl-btn" id="rtl-btn" aria-label="Toggle RTL/LTR text direction" title="Toggle RTL">
         <span id="rtl-label">RTL</span>
       </button>
-      <a href="#contact" class="btn-cta nav-cta" id="nav-cta">Get Free Quote</a>
+      <a href="#pricing" class="btn-primary nav-cta" id="nav-cta"><span>Get Free Quote</span></a>
       <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
         <span class="bar"></span>
         <span class="bar"></span>
@@ -56,7 +56,8 @@
 <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
   <button class="mobile-close" id="mobile-close" aria-label="Close menu"><i class="fas fa-times"></i></button>
   <div class="mobile-logo">
-    <i class="fas fa-film"></i> CineEdit<span>Pro</span>
+    <div class="logo-icon"><i class="fas fa-film"></i></div>
+    <span class="logo-text">CineEdit<span class="logo-accent">Pro</span></span>
   </div>
   <ul class="mobile-nav-list">
     <li><a href="#home" class="mobile-nav-link">Home</a></li>
@@ -67,7 +68,7 @@
     <li><a href="#testimonials" class="mobile-nav-link">Testimonials</a></li>
     <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
   </ul>
-  <a href="#contact" class="btn-primary mobile-cta">Get Free Quote</a>
+  <a href="#pricing" class="btn-primary mobile-cta">Get Free Quote</a>
 </div>
 
 <!-- ========== HERO SECTION ========== -->
@@ -90,11 +91,11 @@
       Transform raw footage into compelling stories. Expert editing for YouTube, TikTok, Instagram Reels, and brand commercials that captivate audiences and drive real results.
     </p>
     <div class="hero-ctas reveal-up" data-delay="300">
-      <a href="#contact" class="btn-primary" id="hero-cta-quote">
-        <i class="fas fa-comment-dots"></i> Get Free Quote
+      <a href="#pricing" class="btn-primary" id="hero-cta-quote">
+        <i class="fas fa-comment-dots"></i> <span>Get Free Quote</span>
       </a>
       <a href="#portfolio" class="btn-outline" id="hero-cta-portfolio">
-        <i class="fas fa-play-circle"></i> View Portfolio
+        <i class="fas fa-play-circle"></i> <span>View Portfolio</span>
       </a>
     </div>
     <div class="hero-stats reveal-up" data-delay="400">
@@ -137,114 +138,122 @@
 
     <div class="services-grid">
       <div class="service-card reveal-up" data-delay="0">
-        <div class="service-icon-wrap">
-          <div class="service-icon"><i class="fab fa-youtube"></i></div>
-          <div class="service-icon-glow"></div>
+        <div class="service-img-wrap">
+          <img src="svc_youtube.png" alt="YouTube Video Editing" class="service-img">
         </div>
-        <h3>YouTube Video Editing</h3>
+        <div class="service-content">
+          <h3>YouTube Video Editing</h3>
         <p>Engaging, retention-optimized edits with dynamic cuts, sound design, and storytelling that keeps viewers hooked from start to finish.</p>
         <div class="service-features">
           <span><i class="fas fa-check-circle"></i> Custom Intros & Outros</span>
           <span><i class="fas fa-check-circle"></i> Jump Cuts & B-Roll</span>
           <span><i class="fas fa-check-circle"></i> Sound Design</span>
         </div>
+        </div>
       </div>
 
       <div class="service-card reveal-up" data-delay="100">
-        <div class="service-icon-wrap">
-          <div class="service-icon shorts-icon"><i class="fas fa-mobile-alt"></i></div>
-          <div class="service-icon-glow"></div>
+        <div class="service-img-wrap">
+          <img src="svc_shorts.png" alt="Shorts & Reels Editing" class="service-img">
         </div>
-        <h3>Shorts & Reels Editing</h3>
+        <div class="service-content">
+          <h3>Shorts & Reels Editing</h3>
         <p>Viral-ready vertical content for YouTube Shorts and Instagram Reels. Fast-paced, trend-driven edits built for maximum reach.</p>
         <div class="service-features">
           <span><i class="fas fa-check-circle"></i> Vertical Format</span>
           <span><i class="fas fa-check-circle"></i> Trending Audio Sync</span>
           <span><i class="fas fa-check-circle"></i> Hook Optimization</span>
         </div>
+        </div>
       </div>
 
       <div class="service-card reveal-up" data-delay="200">
-        <div class="service-icon-wrap">
-          <div class="service-icon tiktok-icon"><i class="fab fa-tiktok"></i></div>
-          <div class="service-icon-glow"></div>
+        <div class="service-img-wrap">
+          <img src="svc_tiktok.png" alt="TikTok Editing" class="service-img">
         </div>
-        <h3>TikTok Editing</h3>
+        <div class="service-content">
+          <h3>TikTok Editing</h3>
         <p>Platform-native TikTok edits with trending effects, seamless transitions, text overlays and music synced to the beat.</p>
         <div class="service-features">
           <span><i class="fas fa-check-circle"></i> Trend-Based Edits</span>
           <span><i class="fas fa-check-circle"></i> Text Animations</span>
           <span><i class="fas fa-check-circle"></i> Transition Magic</span>
         </div>
+        </div>
       </div>
 
       <div class="service-card reveal-up" data-delay="300">
-        <div class="service-icon-wrap">
-          <div class="service-icon ads-icon"><i class="fas fa-ad"></i></div>
-          <div class="service-icon-glow"></div>
+        <div class="service-img-wrap">
+          <img src="svc_ads.png" alt="Social Media Ads" class="service-img">
         </div>
-        <h3>Social Media Ads</h3>
+        <div class="service-content">
+          <h3>Social Media Ads</h3>
         <p>High-converting ad videos for Facebook, Instagram, and YouTube. Crafted to stop the scroll and drive action.</p>
         <div class="service-features">
           <span><i class="fas fa-check-circle"></i> Multiple Ratios</span>
           <span><i class="fas fa-check-circle"></i> CTA Integration</span>
           <span><i class="fas fa-check-circle"></i> A/B Variants</span>
         </div>
+        </div>
       </div>
 
       <div class="service-card reveal-up" data-delay="400">
-        <div class="service-icon-wrap">
-          <div class="service-icon motion-icon"><i class="fas fa-magic"></i></div>
-          <div class="service-icon-glow"></div>
+        <div class="service-img-wrap">
+          <img src="svc_motion.png" alt="Motion Graphics" class="service-img">
         </div>
-        <h3>Motion Graphics</h3>
+        <div class="service-content">
+          <h3>Motion Graphics</h3>
         <p>Custom animated graphics, lower thirds, titles, and visual effects that give your content a professional broadcast quality.</p>
         <div class="service-features">
           <span><i class="fas fa-check-circle"></i> Logo Animations</span>
           <span><i class="fas fa-check-circle"></i> Lower Thirds</span>
           <span><i class="fas fa-check-circle"></i> Title Cards</span>
         </div>
+        </div>
       </div>
 
       <div class="service-card reveal-up" data-delay="500">
-        <div class="service-icon-wrap">
-          <div class="service-icon color-icon"><i class="fas fa-palette"></i></div>
-          <div class="service-icon-glow"></div>
+        <div class="service-img-wrap">
+          <img src="svc_color.png" alt="Color Grading" class="service-img">
         </div>
-        <h3>Color Grading</h3>
+        <div class="service-content">
+          <h3>Color Grading</h3>
         <p>Hollywood-level color correction and cinematic LUT grading to establish your unique visual brand and mood.</p>
         <div class="service-features">
           <span><i class="fas fa-check-circle"></i> Custom LUTs</span>
           <span><i class="fas fa-check-circle"></i> Skin Tone Correction</span>
           <span><i class="fas fa-check-circle"></i> Cinematic Grade</span>
         </div>
+        </div>
       </div>
 
       <div class="service-card reveal-up" data-delay="600">
-        <div class="service-icon-wrap">
-          <div class="service-icon audio-icon"><i class="fas fa-headphones"></i></div>
-          <div class="service-icon-glow"></div>
+        <div class="service-img-wrap">
+          <img src="svc_audio.png" alt="Audio Enhancement" class="service-img">
         </div>
-        <h3>Audio Enhancement</h3>
+        <div class="service-content">
+          <h3>Audio Enhancement</h3>
         <p>Professional audio cleanup, noise reduction, mixing, and mastering to ensure crystal-clear, broadcast-quality sound.</p>
         <div class="service-features">
           <span><i class="fas fa-check-circle"></i> Noise Removal</span>
           <span><i class="fas fa-check-circle"></i> Audio Mixing</span>
           <span><i class="fas fa-check-circle"></i> Music Licensing</span>
         </div>
+        </div>
       </div>
 
       <div class="service-card reveal-up" data-delay="700">
-        <div class="service-icon-wrap">
-          <div class="service-icon thumb-icon"><i class="fas fa-image"></i></div>
-          <div class="service-icon-glow"></div>
+        <div class="service-img-wrap">
+          <img src="svc_thumb.png" alt="Thumbnail Design" class="service-img">
         </div>
-        <h3>Thumbnail Design</h3>
+        <div class="service-content">
+          <h3>Thumbnail Design</h3>
         <p>Click-worthy custom YouTube thumbnails and social media graphics designed to maximize CTR and channel growth.</p>
         <div class="service-features">
           <span><i class="fas fa-check-circle"></i> High CTR Design</span>
           <span><i class="fas fa-check-circle"></i> Brand Consistent</span>
           <span><i class="fas fa-check-circle"></i> A/B Testing</span>
+        </div>
         </div>
       </div>
     </div>
@@ -463,7 +472,7 @@
           <li class="feature-disabled"><i class="fas fa-times"></i> Motion Graphics</li>
           <li class="feature-disabled"><i class="fas fa-times"></i> Thumbnail Design</li>
         </ul>
-        <a href="#contact" class="btn-outline pricing-btn" id="pricing-starter-btn">Get Started</a>
+        <a href="#contact" class="btn-outline pricing-btn" id="pricing-starter-btn"><span>Get Started</span></a>
       </div>
 
       <!-- Creator (Popular) -->
@@ -491,7 +500,7 @@
           <li><i class="fas fa-check"></i> Basic Motion Graphics</li>
           <li><i class="fas fa-check"></i> 2 Thumbnails/Month</li>
         </ul>
-        <a href="#contact" class="btn-primary pricing-btn" id="pricing-creator-btn">Start Creating</a>
+        <a href="#contact" class="btn-primary pricing-btn" id="pricing-creator-btn"><span>Start Creating</span></a>
       </div>
 
       <!-- Business -->
@@ -518,7 +527,7 @@
           <li><i class="fas fa-check"></i> Full Motion Graphics</li>
           <li><i class="fas fa-check"></i> Unlimited Thumbnails</li>
         </ul>
-        <a href="#contact" class="btn-outline pricing-btn" id="pricing-business-btn">Go Business</a>
+        <a href="#contact" class="btn-outline pricing-btn" id="pricing-business-btn"><span>Go Business</span></a>
       </div>
     </div>
 
@@ -555,7 +564,6 @@
     <div class="process-timeline">
       <div class="process-step reveal-up" data-delay="0" id="process-step-1">
         <div class="step-number">01</div>
-        <div class="step-connector"></div>
         <div class="step-content">
           <div class="step-icon"><i class="fas fa-cloud-upload-alt"></i></div>
           <h3>Submit Your Footage</h3>
@@ -566,7 +574,6 @@
 
       <div class="process-step reveal-up" data-delay="100" id="process-step-2">
         <div class="step-number">02</div>
-        <div class="step-connector"></div>
         <div class="step-content">
           <div class="step-icon"><i class="fas fa-comments"></i></div>
           <h3>Project Discussion</h3>
@@ -577,7 +584,6 @@
 
       <div class="process-step reveal-up" data-delay="200" id="process-step-3">
         <div class="step-number">03</div>
-        <div class="step-connector"></div>
         <div class="step-content">
           <div class="step-icon"><i class="fas fa-cut"></i></div>
           <h3>Video Editing</h3>
@@ -588,7 +594,6 @@
 
       <div class="process-step reveal-up" data-delay="300" id="process-step-4">
         <div class="step-number">04</div>
-        <div class="step-connector"></div>
         <div class="step-content">
           <div class="step-icon"><i class="fas fa-search"></i></div>
           <h3>Review & Revisions</h3>
@@ -918,7 +923,8 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <div class="footer-logo">
-          <i class="fas fa-film"></i> CineEdit<span>Pro</span>
+          <div class="logo-icon"><i class="fas fa-film"></i></div>
+          <span class="logo-text">CineEdit<span class="logo-accent">Pro</span></span>
         </div>
         <p>Professional video editing that transforms raw footage into compelling stories that grow your brand and engage your audience.</p>
         <div class="footer-social">
@@ -955,7 +961,7 @@
         <p><i class="fas fa-envelope"></i> hello@cineeditpro.com</p>
         <p><i class="fab fa-whatsapp"></i> WhatsApp Available</p>
         <p><i class="fas fa-clock"></i> Mon–Sat, 9AM–9PM</p>
-        <a href="#contact" class="btn-primary footer-cta">Get Free Quote</a>
+        <a href="#pricing" class="btn-primary footer-cta"><span>Get Free Quote</span></a>
       </div>
     </div>
     <div class="footer-bottom">
@@ -968,11 +974,16 @@
   </div>
 </footer>
 
-<!-- Floating Quote Button -->
-<a href="#contact" class="float-cta" id="float-cta" aria-label="Get a free quote">
-  <i class="fas fa-comment-dots"></i>
-  <span>Get Quote</span>
-</a>
+<!-- Floating Buttons -->
+<div class="floating-buttons" id="floating-buttons">
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  <a href="#pricing" class="float-cta" id="float-cta" aria-label="Get a free quote">
+    <i class="fas fa-comment-dots"></i>
+    <span>Get Quote</span>
+  </a>
+</div>
 
 <!-- Video Modal -->
 <div class="video-modal" id="video-modal" role="dialog" aria-modal="true" aria-label="Video player" hidden>

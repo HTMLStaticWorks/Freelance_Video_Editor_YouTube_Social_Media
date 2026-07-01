@@ -27,9 +27,9 @@ setTimeout(revealAll, 1500);
    ========================================== */
 const navbar = $('navbar');
 
-// Declare floatCta HERE so toggleFloatCTA can safely reference it
+// Declare floatBtns HERE so toggleFloatCTA can safely reference it
 // before onScroll() is called below.
-const floatCta = $('float-cta');
+const floatBtns = $('floating-buttons');
 
 function onScroll() {
   navbar.classList.toggle('scrolled', window.scrollY > 30);
@@ -382,11 +382,17 @@ if (modalOverlay) modalOverlay.addEventListener('click', closeModal);
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
 /* ==========================================
-   15. FLOATING CTA — show after scroll
+   15. FLOATING BUTTONS — show after scroll & back to top
    ========================================== */
-// floatCta is declared near the top of the file.
 function toggleFloatCTA() {
-  if (floatCta) floatCta.classList.toggle('visible', window.scrollY > 400);
+  if (floatBtns) floatBtns.classList.toggle('visible', window.scrollY > 400);
+}
+
+const backToTopBtn = $('back-to-top');
+if (backToTopBtn) {
+  backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
 }
 
 /* ==========================================
